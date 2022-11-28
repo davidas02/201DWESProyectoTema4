@@ -1,6 +1,5 @@
 create database if not exists DAW201DBDepartamentos;
 use DAW201DBDepartamentos;
-use dbs9173955;
 create table if not exists Departamento(
     codDepartamento varchar(3) primary key,
     descDepartamento varchar(255) NULL,

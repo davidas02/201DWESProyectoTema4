@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <title>Tema 4 David Aparicio</title>
         <link rel="stylesheet" href="webroot/css/estilos.css"/>
-        <link rel="icon" type="image/x-icon" href="doc/img/favicon.ico"/>
+        <link rel="icon" type="image/x-icon" href="../doc/img/favicon.ico"/>
     </head>
     <body>
         <header>
@@ -15,11 +15,69 @@
             </div>
         </header>
         <table>
-            <thead><tr><th colspan="2">Scripts SQL</th></tr></thead>
-            <tr><th>Creación</th><td><a href="mostrarCodigo/mostrarCreacionBD.php" >Mostrar</a></td></tr>
-            <tr><th>Carga Inicial</th><td><a href="mostrarCodigo/mostrarCargaInicialBD.php">Mostrar</a></td></tr>
-            <tr><th>Borrado</th><td><a href="mostrarCodigo/mostrarBorradoBD.php" >Mostrar</a></td></tr>
-            <tr><th>Configuracion Conexion</th><td><a href="mostrarCodigo/mostrarConfiguracionConexion.php" >Mostrar</a></td></tr>
+            <thead>
+                <tr>
+                    <th colspan=>Instrucción</th>
+                    <th>Desarrollo</th>
+                    <th>Explotación</th>
+                    <th>Casa</th>
+                </tr>
+            </thead>
+            <tr>
+                <th>Creación</th>
+                <td>
+                    <a href="mostrarCodigo/mostrarCreacionBDDesarrollo.php" >
+                        <img src="doc/img/mysql.png" alt="alt"/>
+                    </a>
+                </td>
+                <td>
+                    <a href="mostrarCodigo/mostrarCreacionBD.php" >
+                        <img src="doc/img/mysql.png" alt="alt"/>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <th>Carga Inicial</th>
+                <td>
+                    <a href="mostrarCodigo/mostrarCargaInicialBD.php">
+                        <img src="doc/img/mysql.png" alt="alt"/>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <th>Borrado</th>
+                <td>
+                    <a href="mostrarCodigo/mostrarBorradoBD.php" >
+                        <img src="doc/img/mysql.png" alt="alt"/>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <th>Configuracion Conexion</th>
+                <td>
+                    <a href="mostrarCodigo/mostrarConfiguracionConexionDesarrollo.php" >
+                        <img src="doc/img/mysql.png" alt="alt"/>
+                    </a>
+                </td>
+                <td>
+                    <a href="mostrarCodigo/mostrarConfiguracionConexionExplotacion.php" >
+                        <img src="doc/img/mysql.png" alt="alt"/>
+                    </a>
+                </td> 
+                <td>
+                    <a href="mostrarCodigo/mostrarConfiguracionConexionCasa.php" >
+                        <img src="doc/img/mysql.png" alt="alt"/>
+                    </a>
+                </td> 
+            </tr>
+            <tr>
+                <th>LibreriaValidacion</th>
+                <td colspan="3">
+                    <a href="mostrarCodigo/mostrarLibreriaValidacion.php">
+                        <img src="doc/img/php.png" alt="alt"/>
+                    </a>
+                </td>
+            </tr>
         </table>
         <br/>
         <a href="codigoPHP/restaurarDB.php">Restaurar Departamentos</a>
