@@ -14,9 +14,11 @@
                 <h2>20. Convertir la LibreriaValidacionFormularios.php en una clase ValidacionFormularios.php. El profesor facilitará a los alumnos la clase AAMMDDValidacionFormularios.php desarrollada en el curso anterior como punto de partida.</h2>
             </div>
         </header>
+        <div id="ejercicios">
         <?php
-highlight_file("../core/221024libreriaValidacionFormularios.php");
-?>
+        highlight_file("../core/221024libreriaValidacionFormularios.php");
+        ?>
+        </div>
         <footer> 
             <a href="../../doc/CVDavidAparicioSir.pdf" target="blank"><img src="../doc/img/cv.png" alt="CV David Aparicio"/></a>
             <a href="../indexProyectoTema4.php"><img src="../doc/img/home.png" alt="HOME"/></a>

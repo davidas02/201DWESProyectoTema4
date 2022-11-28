@@ -31,7 +31,12 @@
                     </a>
                 </td>
                 <td>
-                    <a href="mostrarCodigo/mostrarCreacionBD.php" >
+                    <a href="mostrarCodigo/mostrarCreacionBDExplotacion.php" >
+                        <img src="doc/img/mysql.png" alt="alt"/>
+                    </a>
+                </td>
+                <td>
+                    <a href="mostrarCodigo/mostrarCreacionBDDesarrollo.php" >
                         <img src="doc/img/mysql.png" alt="alt"/>
                     </a>
                 </td>
@@ -43,11 +48,31 @@
                         <img src="doc/img/mysql.png" alt="alt"/>
                     </a>
                 </td>
+                <td>
+                    <a href="mostrarCodigo/mostrarCargaInicialBD.php">
+                        <img src="doc/img/mysql.png" alt="alt"/>
+                    </a>
+                </td>
+                <td>
+                    <a href="mostrarCodigo/mostrarCargaInicialBD.php">
+                        <img src="doc/img/mysql.png" alt="alt"/>
+                    </a>
+                </td>
             </tr>
             <tr>
                 <th>Borrado</th>
                 <td>
                     <a href="mostrarCodigo/mostrarBorradoBD.php" >
+                        <img src="doc/img/mysql.png" alt="alt"/>
+                    </a>
+                </td>
+                <td>
+                    <a href="mostrarCodigo/mostrarBorradoBDExplotacion.php">
+                        <img src="doc/img/mysql.png" alt="alt"/>
+                    </a>
+                </td>
+                <td>
+                    <a href="mostrarCodigo/mostrarBorradoBD.php">
                         <img src="doc/img/mysql.png" alt="alt"/>
                     </a>
                 </td>

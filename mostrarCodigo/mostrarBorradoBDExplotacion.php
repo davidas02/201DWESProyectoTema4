@@ -2,20 +2,22 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Tema 4 Mostrar Creacion  David Aparicio</title>
+        <title>Tema 4 Mostar Borrado  David Aparicio</title>
         <link rel="stylesheet" href="../webroot/css/estilos.css"/>
     </head>
     </head>
     <body>
         <header>
-            <h1>Tema 4 Mostrar Creacion Base de Datos David Aparicio </h1>
+            <h1>Tema 4 Mostar Borrado Base de Datos David Aparicio </h1>
             <div id="nav">
-                <h2>Creacion de la base de datos </h2>
+                <h2> Borrado Base de Datos </h2>
             </div>
         </header>
+        <div id="ejercicios">
         <?php
-        highlight_file("../scriptDB/CreaDAW201DBDepartamentos.sql");
+        highlight_file("../codigoPHP/borrarDB.php");
         ?>
+        </div>
         <footer> 
             <a href="../../doc/CVDavidAparicioSir.pdf" target="blank"><img src="../doc/img/cv.png" alt="CV David Aparicio"/></a>
             <a href="../indexProyectoTema4.php"><img src="../doc/img/home.png" alt="HOME"/></a>
