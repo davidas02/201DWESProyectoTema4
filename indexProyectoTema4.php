@@ -40,6 +40,11 @@
                         <img src="doc/img/mysql.png" alt="alt"/>
                     </a>
                 </td>
+                <td>
+                    <a href="mostrarCodigo/mostrarCreacionBDDesarrollo.php" >
+                        <img src="doc/img/mysql.png" alt="alt"/>
+                    </a>
+                </td>
             </tr>
             <tr>
                 <th>Carga Inicial</th>
