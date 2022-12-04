@@ -13,9 +13,11 @@
                 <h2>Mostrar creacion Tabla Departamento y carga inicial</h2>
             </div>
         </header>
+        <div id="ejercicios">
         <?php
         highlight_file("../codigoPHP/restaurarDB.php");
         ?>
+        </div>
         <footer> 
             <a href="../../doc/CVDavidAparicioSir.pdf" target="blank"><img src="../doc/img/cv.png" alt="CV David Aparicio"/></a>
             <a href="../indexProyectoTema4.php"><img src="../doc/img/home.png" alt="HOME"/></a>
